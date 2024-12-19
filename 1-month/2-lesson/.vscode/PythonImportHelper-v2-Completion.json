@@ -1,0 +1,47 @@
+[
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "numbers = [11, 12, 140, 214, 215, 516, 17, 18]\nnumber1 = [12, 15, 50, 320, 120, 15, 18, 20]\njuft = []\ntog = []\nlet = [numbers, number1]\nfor sublist in let: \n    for s in sublist:\n        if s % 2 == 0:\n            juft.append(s)\n        else:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "number1 = [12, 15, 50, 320, 120, 15, 18, 20]\njuft = []\ntog = []\nlet = [numbers, number1]\nfor sublist in let: \n    for s in sublist:\n        if s % 2 == 0:\n            juft.append(s)\n        else:\n            tog.append(s)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "juft",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "juft = []\ntog = []\nlet = [numbers, number1]\nfor sublist in let: \n    for s in sublist:\n        if s % 2 == 0:\n            juft.append(s)\n        else:\n            tog.append(s)\nprint(\"Juft sonlar:\", (juft))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tog",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tog = []\nlet = [numbers, number1]\nfor sublist in let: \n    for s in sublist:\n        if s % 2 == 0:\n            juft.append(s)\n        else:\n            tog.append(s)\nprint(\"Juft sonlar:\", (juft))\nprint(\"Toq sonlar:\", (tog))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "let",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "let = [numbers, number1]\nfor sublist in let: \n    for s in sublist:\n        if s % 2 == 0:\n            juft.append(s)\n        else:\n            tog.append(s)\nprint(\"Juft sonlar:\", (juft))\nprint(\"Toq sonlar:\", (tog))\n# juft_yigindi = 0",
+        "detail": "main",
+        "documentation": {}
+    }
+]

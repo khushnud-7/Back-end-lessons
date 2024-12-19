@@ -1,0 +1,11 @@
+[
+    {
+        "label": "library",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "library = {\n    \"me\": {\n        \"name\": \"Roman\",\n        \"Price\": 12,\n        \"quantity\": 5,\n        \"Plot\": \"About Love\",\n        \"Author\": \"Pushkin\",\n        \"Published_Year\": 1871,\n        \"sum\": []\n    },",
+        "detail": "main",
+        "documentation": {}
+    }
+]

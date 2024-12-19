@@ -1,0 +1,20 @@
+[
+    {
+        "label": "books",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "books = [\"sevgi_kitobi\", \"titanic_book\", \"foundation_kitobi\", \"Scientist_book\"]\nprompt = input(\"Enter a book that you want to order >>> \")\nif prompt in books:\n    print(f\"U  ordered:{prompt}\")\nelse: \n    print(\"There is no book that you want to book\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "prompt = input(\"Enter a book that you want to order >>> \")\nif prompt in books:\n    print(f\"U  ordered:{prompt}\")\nelse: \n    print(\"There is no book that you want to book\")",
+        "detail": "main",
+        "documentation": {}
+    }
+]

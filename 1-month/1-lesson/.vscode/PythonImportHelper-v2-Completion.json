@@ -1,0 +1,74 @@
+[
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "username = int(input(\"Enter your username >>>\"))\npassword = int(input(\"Enter your password >>>\"))\nif username == \"user001\" and password == \"1234\":\n    print('password')\nif password == \"1234\"\n\"\"\"\n0 - False\n1 - True\n'and' = js (&&)\n0*1= 0 =False",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "password = int(input(\"Enter your password >>>\"))\nif username == \"user001\" and password == \"1234\":\n    print('password')\nif password == \"1234\"\n\"\"\"\n0 - False\n1 - True\n'and' = js (&&)\n0*1= 0 =False\n1*0 = 0 = False",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "'and'",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "'and' = js (&&)\n0*1= 0 =False\n1*0 = 0 = False\n1*1 = 1 =True \n0 * 0 = 0 =False\n'or' = js (||)\n0+1= 0 = True\n1+0 = 1 = True\n1+1 = 1 = True\n0 + 0 = 0 = False",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "1*0",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "1*0 = 0 = False\n1*1 = 1 =True \n0 * 0 = 0 =False\n'or' = js (||)\n0+1= 0 = True\n1+0 = 1 = True\n1+1 = 1 = True\n0 + 0 = 0 = False\n\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "1*1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "1*1 = 1 =True \n0 * 0 = 0 =False\n'or' = js (||)\n0+1= 0 = True\n1+0 = 1 = True\n1+1 = 1 = True\n0 + 0 = 0 = False\n\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "'or'",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "'or' = js (||)\n0+1= 0 = True\n1+0 = 1 = True\n1+1 = 1 = True\n0 + 0 = 0 = False\n\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "1+0",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "1+0 = 1 = True\n1+1 = 1 = True\n0 + 0 = 0 = False\n\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "1+1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "1+1 = 1 = True\n0 + 0 = 0 = False\n\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    }
+]
