@@ -97,4 +97,3 @@ while True:
     else:
         print("Notog'ri buyruq berdingiz iltimos, qaytadan urinib ko'ring!")
         break;
-# 1)
