@@ -127,21 +127,7 @@
 # print("Juft sonlaring yigindisi:", juft)
 # print("Tog sonlarning yigindisi:", tog)
 
-numbers = [11, 12, 140, 214, 215, 516, 17, 18]
-number1 = [12, 15, 50, 320, 120, 15, 18, 20]
-juft = []
-tog = []
-let = [numbers, number1]
 
-for sublist in let: 
-    for s in sublist:
-        if s % 2 == 0:
-            juft.append(s)
-        else:
-            tog.append(s)
-
-print("Juft sonlar:", (juft))
-print("Toq sonlar:", (tog))
 
 # juft_yigindi = 0
 # tog_yogindi = 0

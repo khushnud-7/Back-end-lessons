@@ -1,10 +1,46 @@
 [
     {
-        "label": "library",
+        "label": "numbers",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "library = {\n    \"me\": {\n        \"name\": \"Roman\",\n        \"Price\": 12,\n        \"quantity\": 5,\n        \"Plot\": \"About Love\",\n        \"Author\": \"Pushkin\",\n        \"Published_Year\": 1871,\n        \"sum\": []\n    },",
+        "peekOfCode": "numbers = [11, 12, 140, 214, 215, 516, 17, 18]\nnumber1 = [12, 15, 50, 320, 120, 15, 18, 20]\njuft = []\ntog = []\nlet = numbers + number1\nfor s in let:\n    if s % 2 == 0:\n        juft.append(s)\n    else:\n        tog.append(s)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "number1 = [12, 15, 50, 320, 120, 15, 18, 20]\njuft = []\ntog = []\nlet = numbers + number1\nfor s in let:\n    if s % 2 == 0:\n        juft.append(s)\n    else:\n        tog.append(s)\nprint(\"Juft sonlar:\", (juft))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "juft",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "juft = []\ntog = []\nlet = numbers + number1\nfor s in let:\n    if s % 2 == 0:\n        juft.append(s)\n    else:\n        tog.append(s)\nprint(\"Juft sonlar:\", (juft))\nprint(\"Toq sonlar:\", (tog))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tog",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tog = []\nlet = numbers + number1\nfor s in let:\n    if s % 2 == 0:\n        juft.append(s)\n    else:\n        tog.append(s)\nprint(\"Juft sonlar:\", (juft))\nprint(\"Toq sonlar:\", (tog))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "let",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "let = numbers + number1\nfor s in let:\n    if s % 2 == 0:\n        juft.append(s)\n    else:\n        tog.append(s)\nprint(\"Juft sonlar:\", (juft))\nprint(\"Toq sonlar:\", (tog))",
         "detail": "main",
         "documentation": {}
     }
