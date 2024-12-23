@@ -81,9 +81,9 @@ while True:
     
     if alif.lower() in ["dalley", "daley", "keyingi"]:
         username = input("\nIsmi: ")
-        password = input("\nParol: ")
-        birthdate = input("\nTug'ilgan sana: ")
-        number = input("\nTelefon raqami: ")
+        password = int(input("\nParol: "))
+        birthdate = int(input("\nTug'ilgan sana: "))
+        number = int(input("\nTelefon raqami: "))
         adress = input("\nManzili: ")
         yangi_account = infoberish(username, password, birthdate, number, adress)
         account.append(yangi_account)
