@@ -60,40 +60,38 @@
 # #     def infoberish1():
 # #         print(f"{info['username'].title ,{info["password"].title}}") 
 
+# def infoberish(username, password, birthdate, number, adress=None):
+#     """Account yaratish funktsiyasi va shuningdek instruktsiyalar"""
+#     info = {
+#         "username": username,
+#         "password": password,
+#         "birthdate": birthdate,
+#         "number": number,
+#         "adress": adress
+#     }
+#     return info
 
-def infoberish(username, password, birthdate, number, adress=None):
-    """Account yaratish funktsiyasi va shuningdek instruktsiyalar"""
-    info = {
-        "username": username,
-        "password": password,
-        "birthdate": birthdate,
-        "number": number,
-        "adress": adress
-    }
-    return info
+# print("\nSaytimizda Account yaratamiz.\n")
+# account = []
 
-
-print("\nSaytimizda Account yaratamiz.\n")
-account = []
-
-while True:
-    alif = input("Ma'lumotlaringizni kiritish uchun (keyingi) ni kiriting / chiqib ketish uchun (Exit) ni kiriting >>> ")
+# while True:
+#     alif = input("Ma'lumotlaringizni kiritish uchun (keyingi) ni kiriting / chiqib ketish uchun (Exit) ni kiriting >>> ")
     
-    if alif.lower() in ["dalley", "daley", "keyingi"]:
-        username = input("\nIsmi: ")
-        password = int(input("\nParol: "))
-        birthdate = int(input("\nTug'ilgan sana: "))
-        number = int(input("\nTelefon raqami: "))
-        adress = input("\nManzili: ")
-        yangi_account = infoberish(username, password, birthdate, number, adress)
-        account.append(yangi_account)
+#     if alif.lower() in ["dalley", "daley", "keyingi"]:
+#         username = input("\nIsmi: ")
+#         password = int(input("\nParol: "))
+#         birthdate = int(input("\nTug'ilgan sana: "))
+#         number = int(input("\nTelefon raqami: "))
+#         adress = input("\nManzili: ")
+#         yangi_account = infoberish(username, password, birthdate, number, adress)
+#         account.append(yangi_account)
         
-        print("\nAccount yaratildi! Ma'lumotlar:")
-        print(yangi_account)
+#         print("\nAccount yaratildi! Ma'lumotlar:")
+#         print(yangi_account)
 
-    elif alif in ["yuq", 'exit', 'net', 'no', "Exit"]:
-        print("Dastur yopildi!")
+#     elif alif in ["yuq", 'exit', 'net', 'no', "Exit"]:
+#         print("Dastur yopildi!")
     
-    else:
-        print("Notog'ri buyruq berdingiz iltimos, qaytadan urinib ko'ring!")
-        break
+    # else:
+    #     print("Notog'ri buyruq berdingiz iltimos, qaytadan urinib ko'ring!")
+    #     break

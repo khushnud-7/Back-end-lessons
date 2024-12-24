@@ -1,0 +1,29 @@
+[
+    {
+        "label": "toqson_chiqarish",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def toqson_chiqarish(numbers):\n    toq = []\n    for num in numbers:\n        if num % 2 != 0:\n            toq.append(num)\n    return toq\nnumber = [1, 3, 4, 8, 10, 34, 21, 7, 9]\ntoq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "number = [1, 3, 4, 8, 10, 34, 21, 7, 9]\ntoq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "toq",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "toq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "detail": "main",
+        "documentation": {}
+    }
+]

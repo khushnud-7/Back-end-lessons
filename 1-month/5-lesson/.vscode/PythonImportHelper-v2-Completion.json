@@ -1,19 +1,19 @@
 [
     {
-        "label": "infoberish",
+        "label": "mathqilish",
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def infoberish(username, password, birthdate, number, adress=None):\n    \"\"\"Account yaratish funktsiyasi va shuningdek instruktsiyalar\"\"\"\n    info = {\n        \"username\": username,\n        \"password\": password,\n        \"birthdate\": birthdate,\n        \"number\": number,\n        \"adress\": adress\n    }\n    return info",
+        "peekOfCode": "def mathqilish(a, amal, b):\n    a = int(input(\"Son kiriting ! \"))\n    amal = input(\"Amal kiriting ! \")\n    b = int(input(\"Son kiriting ! \"))\n    if amal == '+':\n        return a + b\n    elif amal == '-':\n        return a - b\n    elif amal == '*':\n        return a * b",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "account",
+        "label": "math",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "account = []\nwhile True:\n    alif = input(\"Ma'lumotlaringizni kiritish uchun (keyingi) ni kiriting / chiqib ketish uchun (Exit) ni kiriting >>> \")\n    if alif.lower() in [\"dalley\", \"daley\", \"keyingi\"]:\n        username = input(\"\\nIsmi: \")\n        password = int(input(\"\\nParol: \"))\n        birthdate = int(input(\"\\nTug'ilgan sana: \"))\n        number = int(input(\"\\nTelefon raqami: \"))\n        adress = input(\"\\nManzili: \")\n        yangi_account = infoberish(username, password, birthdate, number, adress)",
+        "peekOfCode": "math = mathqilish(\"a\", \"amal\", \"b\")\nprint(math)",
         "detail": "main",
         "documentation": {}
     }
