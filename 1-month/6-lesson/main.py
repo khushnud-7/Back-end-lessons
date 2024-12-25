@@ -28,15 +28,15 @@
 # toqson_chiqarish()
 
 
-def toqsoni_chiqarish(numbers: list):
+# def toqsoni_chiqarish(numbers: list):
 
-    toq = []
-    for i in numbers:
-        if i % 2 != 0:
-            toq.append(i)
-    return toq
+#     toq = []
+#     for i in numbers:
+#         if i % 2 != 0:
+#             toq.append(i)
+#     return toq
 
 
-number = [1, 3, 5, 2, 6, 8, 34, 55, 100, 31]
-toqs = toqsoni_chiqarish(number)
-print("Toq sonlar:",  toqs)
+# number = [1, 3, 5, 2, 6, 8, 34, 55, 100, 31]
+# toqs = toqsoni_chiqarish(number)
+# print("Toq sonlar:",  toqs)

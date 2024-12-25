@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def toqson_chiqarish(numbers):\n    toq = []\n    for num in numbers:\n        if num % 2 != 0:\n            toq.append(num)\n    return toq\nnumber = [1, 3, 4, 8, 10, 34, 21, 7, 9]\ntoq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "peekOfCode": "def toqson_chiqarish(numbers: list):\n    number = []\n    for i in numbers:\n        if i % 2 != 0:\n            number.append(i)\n    return number\nnumber = [1, 3, 5, 2, 6, 8, 34, 55, 100, 31]\ntoqson = toqson_chiqarish(number)\nprint(\"Toqsonlar :\", toqson)",
         "detail": "main",
         "documentation": {}
     },
@@ -13,16 +13,16 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "number = [1, 3, 4, 8, 10, 34, 21, 7, 9]\ntoq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "peekOfCode": "number = [1, 3, 5, 2, 6, 8, 34, 55, 100, 31]\ntoqson = toqson_chiqarish(number)\nprint(\"Toqsonlar :\", toqson)",
         "detail": "main",
         "documentation": {}
     },
     {
-        "label": "toq",
+        "label": "toqson",
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "toq = toqson_chiqarish(number)\nprint(\"Toq sonlar:\", toq)",
+        "peekOfCode": "toqson = toqson_chiqarish(number)\nprint(\"Toqsonlar :\", toqson)",
         "detail": "main",
         "documentation": {}
     }
