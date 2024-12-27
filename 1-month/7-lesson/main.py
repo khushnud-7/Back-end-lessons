@@ -24,5 +24,5 @@ def faktorial_hisoblash():
 
     print(f"Faktorial hisob : {faktorial} soni = {alif} teng")
 
-
 faktorial_hisoblash()
+# 1)
